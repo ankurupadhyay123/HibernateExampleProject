@@ -1,0 +1,12 @@
+out/
+*.iml
+*.iws
+target
+.idea
+stacktrace.log
+*.swp
+*.log
+.idea
+.asscache
+.slcache
+.slcache/
