@@ -1,9 +1,11 @@
 package entities;
 
+import javax.persistence.Embeddable;
+
 /**
  * Created by ankur on 7/7/17.
  */
-//TODO: Ques11 Class should be embeddable which is to be embedded
+    @Embeddable
 public class Address {
     //Question 10
     Integer streetNumber;
