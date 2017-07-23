@@ -3,6 +3,7 @@ package entities;
 /**
  * Created by ankur on 7/7/17.
  */
+//TODO: Ques11 Class should be embeddable which is to be embedded
 public class Address {
     //Question 10
     Integer streetNumber;

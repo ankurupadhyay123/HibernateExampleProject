@@ -25,6 +25,7 @@ public class MainClass {
 
         //Question 2.
         //create operation
+        // TODO: Make use of Hibernate Utils to fetch session
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
         Session session=sessionFactory.openSession();
         session.beginTransaction();
